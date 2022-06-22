@@ -50,9 +50,6 @@ python label_studio/manage.py collectstatic --no-input
 
 
 ## What you get from Modified- Label Studio
-
-![Screenshot of Label Studio data manager grid view with images](https://raw.githubusercontent.com/heartexlabs/label-studio/master/images/labelstudio-ui.gif)
-
 - Safe Enviroment for multi-users to work on an enviroment
 - Have removed the Danger Zone, Cloud Storage & WebHooks Pages from Settings, so that no user/annotator can delete or make modifications in the whole project
 - Removed 3 Actions of Tasks: Delete Tasks, Delete Task Annotations, Delete Task Predcitions
