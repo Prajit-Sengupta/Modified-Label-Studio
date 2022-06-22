@@ -1,9 +1,5 @@
 <img src="https://raw.githubusercontent.com/heartexlabs/label-studio/master/images/ls_github_header.png"/>
 
-![GitHub](https://img.shields.io/github/license/heartexlabs/label-studio?logo=heartex) ![label-studio:build](https://github.com/heartexlabs/label-studio/workflows/label-studio:build/badge.svg) ![GitHub release](https://img.shields.io/github/v/release/heartexlabs/label-studio?include_prereleases)
-
-[Website](https://labelstud.io/) • [Docs](https://labelstud.io/guide/) • [Twitter](https://twitter.com/heartexlabs) • [Join Slack Community <img src="https://app.heartex.ai/docs/images/slack-mini.png" width="18px"/>](http://slack.labelstud.io.s3-website-us-east-1.amazonaws.com?source=github-1)
-
 
 ## What is Label Studio?
 
@@ -29,7 +25,7 @@ label-studio
 You can run the latest Label Studio version locally without installing the package with pip. 
 
 ```bash
-git clone https://github.com/heartexlabs/label-studio.git
+git clone https://github.com/Prajit-Sengupta/Modified-Label-Studio.git
 cd label-studio
 git checkout 3e28c167765c5a4030fbd309955d4eb64baf1841
 # Install all package dependencies
