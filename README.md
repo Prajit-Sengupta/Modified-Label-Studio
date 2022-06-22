@@ -57,3 +57,9 @@ python label_studio/manage.py collectstatic --no-input
 - Have removed the Danger Zone, Cloud Storage & WebHooks Pages from Settings, so that no user/annotator can delete or make modifications in the whole project
 - Removed 3 Actions of Tasks: Delete Tasks, Delete Task Annotations, Delete Task Predcitions
 - All deletion actions have been removed.
+
+### Settings Page Modified.
+![image](https://user-images.githubusercontent.com/71543838/175102704-331ef22e-ddae-485e-94c7-79395ae58f4d.png)
+
+### Tasks Toggle Modified
+![image](https://user-images.githubusercontent.com/71543838/175102817-9104a625-09ee-4cd5-ac60-d796479587e9.png)
