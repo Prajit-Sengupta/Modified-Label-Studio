@@ -51,10 +51,11 @@ export const APIConfig = {
     submitAnnotation: "POST:/../tasks/:taskID/annotations",
 
     /** Update annotation */
-    updateAnnotation: "PATCH:/../annotations/:annotationID",
+    // updateAnnotation: "PATCH:/../annotations/:annotationID",
+    // Have updated these annonationa action
 
     /** Delete annotation */
-    deleteAnnotation: "DELETE:/../annotations/:annotationID",
+    // deleteAnnotation: "DELETE:/../annotations/:annotationID",
 
     /** Override selected items list (checkboxes) */
     setSelectedItems: "POST:/views/:tabID/selected-items",

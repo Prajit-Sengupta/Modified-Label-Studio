@@ -23,7 +23,8 @@ _api_projects_urlpatterns = [
 
 urlpatterns = [
     path('api/import/', include((_api_urlpatterns, app_name), namespace='api')),
-    path('api/projects/', include((_api_projects_urlpatterns, app_name), namespace='api-projects')),
+    # path('api/projects/', include((_api_projects_urlpatterns, app_name), namespace='api-projects')),
+    #Commented to show error in Import button.
 
     # special endpoints for serving imported files
     path('data/upload/<path:filename>', api.UploadedFileResponse.as_view(), name='data-upload'),
