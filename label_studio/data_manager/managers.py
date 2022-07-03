@@ -177,6 +177,7 @@ def cast_value(_filter):
 
 
 def apply_filters(queryset, filters, only_undefined_field=False):
+
     if not filters:
         return queryset
 
@@ -185,6 +186,7 @@ def apply_filters(queryset, filters, only_undefined_field=False):
 
     for _filter in filters.items:
 
+        
         # we can also have annotations filters
         if not _filter.filter.startswith("filter:tasks:") or _filter.value is None:
             continue

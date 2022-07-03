@@ -96,9 +96,10 @@ export const DataManagerPage = ({ ...props }) => {
       history.push(buildLink("/settings/labeling", { id: params.id }));
     });
 
-    dataManager.on("importClicked", () => {
-      history.push(buildLink("/data/import", { id: params.id }));
-    });
+    // dataManager.on("importClicked", () => {
+    //   history.push(buildLink("/data/import", { id: params.id }));
+    // });
+    // Removed Import Button
 
     dataManager.on("exportClicked", () => {
       history.push(buildLink("/data/export", { id: params.id }));
